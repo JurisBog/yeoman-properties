@@ -1,0 +1,163 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Yeoman Properties - Student Accommodation in St Andrews</title>
+  </head>
+  <body>
+    <header>
+      <h1>Yeoman Properties</h1>
+      <h2>High Quality Student Accommodation in St Andrews</h2>
+    </header>
+    <article>
+      <section>
+        <h2>Who are we?</h2>
+        <p>We are a private registered landlord with 3 HMO licensed properties in the centre of town. We have been letting to students for over 15 years and have a sound knowledge and experience of dealing with them. Our properties are regarded as some of the best student properties in the town, they are of a high standard, well equipped and maintained properly. We are also regarded as good and fair landlords who look after our tenants properly. Quality, safety and fairness are some of our main objectives. Our lease terms are for 11 months (48 weeks) September to August. Town and Gown in St Andrews interview our prospective tenants and do the selection on our behalf. We are looking for mature and respectful students who will look after our properties. Our leases are very strict on anti social behaviour and parties of any shape or form are not allowed, so if you are looking for a party time then we are not the landlord for you.</p>
+      </section>
+      <section id="property-list">
+        <h2>Properties</h2>
+        <section>
+          <div>
+            <h3>The Dunes</h3>
+            <h5>Gillespie Wynd</h5>
+            <ul>
+              <li>5 persons</li>
+              <li>Large Lounge</li>
+              <li>Good Kitchen</li>
+              <li>2 Shower Rooms</li>
+              <li>Patio Garden</li>
+            </ul>
+          </div>
+          <div>
+            <h3>The Keep</h3>
+            <h5>Murray Park</h5>
+            <ul>
+              <li>6 persons</li>
+              <li>Large Lounge/Dining Room</li>
+              <li>Huge Kitchen</li>
+              <li>2 Shower Rooms</li>
+              <!-- <li>6 Bedrooms</li> -->
+              <li>Additional TV Lounge Downstairs</li>
+              <li>Patio garden.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>The Haven</h3>
+            <h5>Abbotsford Place</h5>
+            <ul>
+              <li>6 Persons</li>
+              <li>Large Lounge/Kitchen/Dining Room</li>
+              <li>Master Sharing Shower Room</li>
+              <!-- <li>
+                <span>Bedrooms:</span>
+                <ul>
+                  <li>1 Single Size</li>
+                  <li>2 Double Size</li>
+                  <li>3 Double Size with Ensuite Shower Rooms</li>
+                </ul>
+              </li> -->
+              <li>Utility Room</li>
+              <li>Patio Garden</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </article>
+
+    <footer>
+      <span style="float:left;">We endeavour to provide superior accommodation in the best locations with the highest standard of service at a reasonable price.</span>
+      <span style="float:right;">Copyright  &copy; 2017</span>
+    </footer>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <style>
+      * {
+        font-family:'Open Sans', sans-serif;
+      }
+
+      body {
+        vertical-align: middle;
+      }
+
+      header {
+        text-align:center;
+        border-bottom:2px solid black;
+        padding:20px 0;
+      }
+
+      header * {
+        font-family:Arial;
+        margin:0 0;
+      }
+      h1 {
+        font-size: 2.5em;
+      }
+
+      body > article {
+        margin:0 50px;
+        max-height:auto;
+        overflow:hidden;
+        animation: 10s ease-out 0s 1 slideInFromLeft;
+      }
+
+      body > article > section {
+        margin:40px 0;
+      }
+
+      #property-list {
+        text-align:center;
+      }
+      #property-list h2 {
+        text-align:left;
+      }
+      #property-list div {
+        display:table-cell;
+        width:500px;
+        vertical-align:top;
+        border:1px solid black;
+      }
+
+      #property-list > section {
+        display:table;
+        border-collapse:separate;
+        border-spacing:10px 0;
+        margin:0 auto;
+      }
+
+      #property-list h5 {
+        margin-top:0;
+      }
+
+      #property-list h3 {
+        margin-bottom:0;
+      }
+
+      #property-list li {
+        text-align:left;
+      }
+
+      @media screen and (max-width: 599px) {
+        #property-list > section  {
+            display: block;
+        }
+        #property-list > section div {
+            display:inline-block;
+            width:90%;
+        }
+      }
+
+      footer {
+        padding:10px 0;
+        border-top:2px solid black;
+      }
+
+      @keyframes slideInFromLeft {
+        0% {
+          max-height:0;
+        }
+        100% {
+          max-height:100em;
+        }
+      }
+    </style>
+  </body>
+</html>
